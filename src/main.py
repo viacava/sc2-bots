@@ -1,7 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import sc2
+import logging
 from sc2 import run_game, maps, Race, Difficulty
 from sc2.player import Bot, Computer
-import logging
+
 
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
